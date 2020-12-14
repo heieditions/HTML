@@ -1,0 +1,18 @@
+.t-zone {
+    flex: auto;
+}
+
+.t-zone>div {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+    flex: auto;
+}
+
+.t-zone-hor>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
